@@ -16,5 +16,5 @@ func PostHeaders(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	w.Header().Add("a + b", strconv.Itoa(a+b))
+	w.Header().Add("a+b", strconv.Itoa(a+b))
 }
